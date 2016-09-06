@@ -1,0 +1,208 @@
+body{margin:0px; padding:0px; background:#f2f2f2; }
+a {text-decoration:none; outline:none; border:none; background:none;}
+img{text-decoration:none; outline:none; border:none; background:none;}
+.clear {clear: both;}
+.right{text-align:right;}
+.left{text-align:left;}
+.fl-rt{float:right;}
+.fl-lft{float:left;}
+.center{text-align:center;}
+.italic{font-style:italic;}
+.uppercase{text-transform:uppercase;}
+*{font-family:Arial, Helvetica, sans-serif; }
+
+/*-------------------------button--american-express-payment--------------*/
+.american_pay_main{display:block; margin:0 auto; width:540px; border:1px solid #dddddd; font-size:11px; background:#fff;}
+.american_pay_main .button{float:right; margin:0px; padding:0 0px; border:none; background:none; color:#fff; height:40px; -webkit-border-radius: 5px; text-transform:uppercase;
+-moz-border-radius: 5px;
+border-radius: 5px; font-size:12px; cursor:pointer; text-align:center !important; }
+.american_pay_main input{border:1px solid #aeaeae; height:20px;  padding:5px;  float:right; background:#f4f4f4; width:274px; vertical-align: middle !important;   }
+.american_pay_main input.loginbox { width: 75px !important;}
+.american_pay_main select{border:1px solid #aeaeae; height:30px; padding:5px; background:#f4f4f4; float:right; width:286px; line-height:30px;}
+.american_pay_main select option{border:none; }
+.american_pay_main .ame_paybanner{display:block; margin:0px; padding:0px;}
+.american_pay_main .ame_paybanner img{width:100%;  }
+.american_pay_main .ame_paystep{display:block; clear:both; margin:20px auto; width:445px; }
+.american_pay_main .ame_paystepbg{display:block; margin:0px; padding:0px; }
+.american_pay_main .ame_paystepbg img{display:block; margin:0 auto; }
+.american_pay_main .ame_paystepinfo{ display:block; margin:0px; padding:0px; font-size:11px; color:#444444;  text-align:center;  }
+.american_pay_main .ame_paystepinfo .active{color:#00537a; }
+.american_pay_main .ame_paystepinfo .step1 {float: left; margin: 0; padding: 0; width: 90px;}
+.american_pay_main .ame_paystepinfo .step2 {float: left; margin: 0; padding: 0; text-align: center; width: 59%;}
+.american_pay_main .ame_paystepinfo .step3 { float: right; margin: 0; padding: 0; width: 90px;}
+
+.american_pay_main .american_carddetail{float:left;  display:block; clear:both; margin:25px 20px 20px 20px; padding:0px;}
+.american_pay_main .american_carddetail .ame_hdng{font-size:12px; margin:0px; padding:0px; display:block; color:#00537a; text-transform:uppercase;}
+.american_pay_main .american_carddetail .ame_info{font-size:11px; padding:5px 0 0 0px; color:#444444; display:block;}
+.american_pay_main .american_carddetail .ame_note{font-size:11px; padding:5px 0 0 0px; color:#d10909; display:block;}
+
+.american_pay_main .american_detailform{display:block; margin:0px 20px; padding:0px; }
+.american_pay_main .american_detailform .field_sec{display:block; margin:5px 0 5px 0px; float:left; width:100%; padding:0px; }
+.american_pay_main .american_detailform .label_box{float:left; height:30px; line-height:30px; width:40%; text-transform: uppercase; }
+.american_pay_main .american_detailform .input_box{float:left; margin:0px; padding:0px; width:60%; }
+.american_pay_main .american_detailform .input_box .card_nub {
+    margin: 0 0 0 8px;
+    width: 78px;
+	line-height: 20px;
+
+}
+.american_pay_main .american_proceed_pay{display:block; clear:both; margin:10px 20px; padding:10px 0px; }
+.american_pay_main .american_proceed_pay .pay_info{float:left; margin:0px; padding:0px; width:50%; font-size:10px; color:#ff0000; }
+.american_pay_main .american_proceed_pay .pay_button{float:left; width:50%; margin:0px; padding:0px; text-align:center; }
+.american_pay_main .american_proceed_pay .pay_button .button{float:right;   width:115px; background: url(pay_btn.jpg) no-repeat; text-align:center;  text-transform:uppercase;}
+.american_pay_main .american_proceed_pay .pay_button .button:hover{ background: url(pay_btn_hover.jpg) no-repeat; text-align:center; }
+ 
+
+.american_pay_main .american_proceedtext{float:left; width:100%; clear:both; margin:20px 0 10px 0px; padding:0px; border-top:1px solid #dddddd; }
+.american_pay_main .american_proceedtext .ame_textbox{display:block; margin:10px 20px; padding:10px; background:#f4f4f4; font-size:11px; color:#444444; }
+.american_pay_main .american_proceedtext p { background: none repeat scroll 0 0 #fbfbfb; border: 1px solid #f1f1f1; color: #f33;display: block; font-size: 11px; margin: 10px 20px; padding: 10px; }
+.american_pay_main .american_bildesk{display:block; height:65px; margin:0px 20px 0 0px; padding:0px; clear:both; text-align:right; font-size:14px;   }
+.american_pay_main .american_bildesk .subject{font-size:11px; color:#444444; text-transform:none; padding:0 0 0 10px; line-height: 70px; }
+.american_pay_main .american_bildesk img{float:right; }
+.privacy_policy{display:block; margin:0px; padding:5px 0px; text-align:center; font-size:11px; color:#444444; }
+.amex_secess {border: 1px solid #DDDDDD; clear: both; display: block; height: auto; min-height:205px; margin: 0 auto; padding: 20px; width: 440px; text-transform:uppercase; overflow: hidden;}
+.amex_secess ul { display: block; line-height: 25px; margin: 0; padding: 0; width:100%;}
+.amex_secess ul li{display:inline;  width:48%;  margin:0px; padding:0px; font-size:11px; color:#444444;} 
+.amex_secess ul li span {text-transform:none;}
+.amex_secess ul li.success{color:#d10909; font-weight:bold;}
+.amex_secess ul li:first-child{  width:50%; float:left;}
+.amex_secess ul li:last-child{  width:50%; float:left;}
+.amex_secess .amex_status{display:block; margin:0px; padding:0px; } 
+.amex_secess1 {
+    display: block;
+    float: left;
+    margin: 5px 0 14px;
+    padding: 0;
+    width: 100%;
+}
+.amex_secess1 .button{height:32px; }
+.amex_secess1 .amex_close{float:left; width:90px; margin:0 0 0 25px; padding:0px; text-align:center; }
+.amex_secess1 .amex_close .button{background:url(close_btn.jpg)  top center no-repeat;  width:100%; }
+.amex_secess1 .amex_close .button:hover{background:url(close_btn_hover.jpg)  top center no-repeat; }
+.amex_secess1 .amex_save{float:right; margin:0 5px 0 5px; padding:0px; width:71px; }
+.amex_secess1 .amex_save .button{background:url(save_btn.jpg) top center no-repeat;  width:100%;}
+.amex_secess1 .amex_save .button:hover{background:url(save_btn_hover.jpg) top center no-repeat;}
+
+.amex_secess1 .amex_make_other{float:right; margin:0 27px 0 0px; padding:0px;  width:177px;}
+.amex_secess1 .amex_make_other .button{background:url(makepayment_btn.jpg)  top center no-repeat; padding:0px; margin:0px; width:100%; }
+.amex_secess1 .amex_make_other .button:hover{background:url(makepayment_btn_hover.jpg) }
+@media all {
+}
+@media screen and (min-width: 859px) and (max-width: 960px) {
+}
+	
+@media screen and (min-width: 761px) and (max-width: 860px) {
+.american_pay_main select{ background:url(amex_drop-icon.jpg) right 10px center no-repeat;}
+}
+@media screen and (min-width: 641px) and (max-width: 760px) {
+.american_pay_main select{ background:url(amex_drop-icon.jpg) right 10px center no-repeat #F4F4F4;}	
+}
+		
+@media screen and (min-width: 421px) and (max-width: 640px) {
+.american_pay_main{width:450px;}
+.american_pay_main .ame_paystep{display:block; clear:both; margin:20px auto; width:400px; }
+.american_pay_main .ame_paystepbg img{display:block; margin:0 auto; width:100%;}
+.american_pay_main .american_detailform .label_box{float:left; margin:0px; padding:0px; width:100%;}
+.american_pay_main .american_detailform .input_box{float:left; margin:0px; padding:0px; width:100%; }
+.american_pay_main .ame_paystepinfo .step1 { width: 74px;}
+.american_pay_main .ame_paystepinfo .step1 {text-align:left; width: 70px;}
+.american_pay_main .ame_paystepinfo .step2 {text-align: center; width: 63%;}
+.american_pay_main .ame_paystepinfo .step3 { text-align:right; width: 77px; }
+.amex_secess { height: 200px; margin: 0 auto; padding: 5px; width:auto; margin:0 20px}
+.american_pay_main input{float:left; width:390px; }
+.american_pay_main select{float:left; background:url(amex_drop-icon.jpg) right 10px center no-repeat #F4F4F4; width:401px; }
+.american_pay_main .american_detailform .input_box.amex_secess1 .card_nub{float:left; margin:0 5px 0 0px }
+.american_pay_main .american_detailform .input_box .card_nub{float:left; margin:0 5px 0 0px; width:119px; }
+.american_pay_main .american_proceed_pay .pay_button {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 48%;
+}
+.american_pay_main .american_detailform .label_box {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 43%;
+}
+.american_pay_main .american_detailform .input_box {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 57%;
+}
+
+.american_pay_main .american_detailform .input_box .card_nub {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 60px;
+}
+.american_pay_main .american_detailform .field_sec {
+    display: block;
+    float: left;
+    margin: 5px 0;
+    padding: 0;
+    width: 100%;
+}
+.american_pay_main .american_detailform .input_box {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 57%;
+}
+.american_pay_main input {
+    float: left;
+    width: 214px;
+}
+.american_pay_main select {
+    background: url("amex_drop-icon.jpg") no-repeat scroll right 10px center #F4F4F4;
+    float: left;
+    width: 226px;
+}
+.amex_secess1 .amex_close {
+    float: left;
+    margin: 0 0 0 9px;
+    padding: 0;
+    text-align: center;
+    width: 90px;
+}
+
+}
+@media screen and (min-width: 0px) and (max-width: 420px) {
+.american_pay_main{width:320px;}
+.american_pay_main .ame_paystep{display:block; clear:both; margin:20px auto; width:300px; }
+.american_pay_main .ame_paystepbg img{display:block; margin:0 auto; width:100%;}
+.american_pay_main .american_detailform .label_box{float:left; margin:0px; padding:0px; width:100%; }
+.american_pay_main .american_detailform .input_box{float:left; margin:0px; padding:0px; width:104%; }
+.american_pay_main .ame_paystepinfo .step1 {float: left;margin: 0;padding: 0;width: 74px;}
+.american_pay_main .ame_paystepinfo .step1 {text-align:left;width: 70px;}
+.american_pay_main .ame_paystepinfo .step2 { text-align: center; width: 50%;}
+.american_pay_main .ame_paystepinfo .step3 {text-align:right;width: 77px;}
+.amex_secess { height: 200px;margin: 0 auto; padding: 5px;width:auto;margin:0 5px}
+.american_pay_main .american_carddetail{margin:20px 10px;  }
+.amex_secess1{ display:block; margin:5px 5px; padding:0px; }
+.amex_secess1 .button{height:32px; font-size:11px; padding:0 5px; }
+.amex_secess { height: 290px; }
+.american_pay_main input{float:left;}
+.american_pay_main .american_detailform .input_box .card_nub{float:left; margin:0 5px 0 0px;  width: 80px;}
+.american_pay_main .american_proceed_pay .pay_info{display:block; width:100%; margin:5px 0px; }
+.american_pay_main select{float:left; background:url(amex_drop-icon.jpg) right 10px center no-repeat #f4f4f4;}
+.amex_secess1 .amex_close{margin: 0 0 0 0px; width:60px;}
+.amex_secess1 .amex_save{margin:0 10px 0 0px; width:50px; }
+.american_pay_main .american_proceed_pay .pay_button{width:auto; }
+.amex_secess1 .amex_make_other {
+    float: right;
+    margin: 0 27px 0 0;
+    padding: 0;
+    width: 147px;
+}
+
+.loginbox { width: 100px;}
+
+}
+
+.footer-link {
+	color: #50C2D4;
+	text-decoration:underline;
+}
